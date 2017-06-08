@@ -1,0 +1,14 @@
+{
+    "name": "@runkit/rikku_dataurl-and-meta-batch-endpoint",
+    "version": "0.0.0-master",
+    "main": "./lib/dataurl-and-meta-batch-endpoint",
+    "dependencies": {
+        "@runkit/runkit_json-endpoint": "https://runkit.com/runkit/json-endpoint/1.0.0",
+        "@runkit/rikku_custom-xmp-reader-module": "https://runkit.com/rikku/custom-xmp-reader-module/1.0.0",
+        "@runkit/rikku_data-helper-module": "https://runkit.com/rikku/data-helper-module/1.0.0",
+        "request": "2.80.0"
+    },
+    "scripts": {
+        "install": "node scripts/install.js"
+    }
+}
